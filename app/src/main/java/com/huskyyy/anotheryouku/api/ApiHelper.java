@@ -34,10 +34,9 @@ public class ApiHelper {
     public static final String BASE_URL = "https://openapi.youku.com/v2/";
     public static final String OAUTH2_URL = "https://openapi.youku.com/v2/oauth2/authorize";
     public static final String REDIRECT_URL = "http://huskyyy.github.io/";
-    //6c4`6_7a5574337g  64g25g4h7b7`5`654`73e2ga5eg_6_5`
-    //44beaef554d_c``c  `3ecgae4243c4`e4hfhgfcgc57b54gg5
-    public static final String CLIENT_ID = Others.rot47("44beaef554d_c``c");
-    public static final String CLIENT_SECRET = Others.rot47("`3ecgae4243c4`e4hfhgfcgc57b54gg5");
+
+    public static final String CLIENT_ID = "Your client ID";
+    public static final String CLIENT_SECRET = "Your client secret";
 
 
     private static Converter.Factory gsonConverterFactory = GsonConverterFactory.create();
