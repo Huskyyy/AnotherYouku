@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="category_imgs">
+        <item>@drawable/ic_whatshot_black_24dp</item>
+        <item>@drawable/ic_track_changes_black_48dp</item>
+        <item>@drawable/ic_memory_black_48dp</item>
+        <item>@drawable/ic_pool_black_48dp</item>
+        <item>@drawable/ic_music_48dp</item>
+        <item>@drawable/ic_movie_filter_black_48dp</item>
+        <item>@drawable/ic_live_tv_black_48dp</item>
+        <item>@drawable/ic_toys_black_48dp</item>
+        <item>@drawable/ic_videogame_asset_black_48dp</item>
+        <item>@drawable/ic_local_mall_black_48dp</item>
+        <item>@drawable/ic_local_cafe_black_48dp</item>
+        <item>@drawable/ic_local_activity_black_48dp</item>
+    </integer-array>
+
+    <integer-array name="emoticon_imgs">
+        <item>@drawable/ic_emoticon_nice</item>
+        <item>@drawable/ic_emoticon_love</item>
+        <item>@drawable/ic_emoticon_angry</item>
+        <item>@drawable/ic_emoticon_dizzy</item>
+        <item>@drawable/ic_emoticon_wtf</item>
+        <item>@drawable/ic_emoticon_sad</item>
+        <item>@drawable/ic_emoticon_awkward</item>
+        <item>@drawable/ic_emoticon_lol</item>
+        <item>@drawable/ic_emoticon_nb</item>
+        <item>@drawable/ic_emoticon_strong</item>
+    </integer-array>
+
+</resources>

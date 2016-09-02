@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/card_margin_m"
+    android:paddingRight="@dimen/card_margin_m"
+    android:layout_marginTop="@dimen/card_margin_s"
+    android:layout_marginBottom="@dimen/card_margin_s"
+    android:background="?attr/selectableItemBackground">
+    
+    <ImageView
+        android:id="@+id/iv_poster"
+        android:layout_width="@dimen/image_width_xxxl"
+        android:layout_height="@dimen/image_height_xxl"
+        android:layout_marginRight="@dimen/image_margin_m"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_poster"
+        android:layout_marginBottom="@dimen/text_margin_m"
+        android:lines="2"
+        android:ellipsize="end"
+        style="@style/PrimaryTextStyle.Large"/>
+
+    <TextView
+        android:id="@id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_poster"
+        android:layout_below="@id/tv_title"
+        android:layout_marginBottom="@dimen/text_margin_s"
+        android:lines="1"
+        style="@style/SecondaryTextStyle" />
+
+    <include
+        layout="@layout/view_play_comment_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_poster"
+        android:layout_below="@id/tv_name"
+        android:layout_marginBottom="@dimen/view_margin_xs"/>
+
+</RelativeLayout>

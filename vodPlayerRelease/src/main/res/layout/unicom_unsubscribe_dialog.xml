@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="220dp"
+    android:background="@drawable/unicom_dialog_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp" >
+
+        <TextView
+            android:id="@+id/unicom_tv_mobliePhone"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="亲爱的13677301635用户您好！"
+            android:textColor="#1b9ad6" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/unicom_tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="95dp"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="您若取消订购，会在下月生效，本月您可以继续使用本产品"
+        android:textColor="#999999" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/unicom_btn_unsubscribe"
+            android:layout_width="120dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/unicom_btn_selector"
+            android:gravity="center"
+            android:text="确定退订"
+            android:textColor="#737474"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:background="#cfdce0" />
+
+        <TextView
+            android:id="@+id/unicom_btn_cancle"
+            android:layout_width="120dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/unicom_btn_selector"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="#737474"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

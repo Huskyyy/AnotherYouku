@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_video"
+    app:cardCornerRadius="@dimen/card_corner_radius_s"
+    app:cardElevation="@dimen/card_elevation_s"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/card_margin_xl"
+        android:orientation="vertical">
+
+        <com.huskyyy.anotheryouku.widget.RatioImageView
+            android:id="@+id/iv_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_height_xl"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/PrimaryTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/text_margin_m"
+            android:layout_marginLeft="@dimen/text_margin_m"
+            android:layout_marginRight="@dimen/text_margin_m"
+            android:layout_marginTop="@dimen/text_margin_s"
+            android:ellipsize="end"
+            android:maxLines="2" />
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/view_play_comment_count"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_margin_xl"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/image_margin_xs"
+        android:layout_marginLeft="@dimen/text_margin_m"
+        ></include>
+
+</merge>

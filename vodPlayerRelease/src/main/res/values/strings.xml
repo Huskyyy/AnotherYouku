@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">YKCloudVedio</string>
+	<string name="ijkplayer_dummy"></string>
+    <string name="error_code">错误代码：%1$s!</string>
+    <string name="player_failed_defualt">播放失败，点击刷新</string>
+
+    <string name="pref_key_enable_background_play">"pref_key_enable_background_play"</string>
+    <string name="pref_key_player">"pref_key_player"</string>
+    <string name="pref_key_using_media_codec">"pref_key_using_media_codec"</string>
+    <string name="pref_key_using_media_codec_auto_rotate">"pref_key_using_media_codec_auto_rotate"</string>
+    <string name="pref_key_using_opensl_es">"pref_key_using_opensl_es"</string>
+    <string name="pref_key_pixel_format">"pref_key_pixel_format"</string>
+    <string name="pref_key_enable_no_view">"pref_key_enable_no_view"</string>
+    <string name="pref_key_enable_surface_view">"pref_key_enable_surface_view"</string>
+    <string name="pref_key_enable_texture_view">"pref_key_enable_texture_view"</string>
+    <string name="pref_key_enable_detached_surface_texture">"pref_key_enable_detached_surface_texture"</string>
+    <string name="pref_key_last_directory">"pref_key_last_directory"</string>
+
+    <string name="player_tips_disable_auto_play">已设置不自动播放,点击播放</string>
+    <string name="player_tips_use_none_wifi">您正在使用非WIFI网络,点击观看视频</string>
+    <string name="player_tips_use_none_wifi_w">您正在使用非WIFI网络观看视频</string>
+	
+	<string name="player_error_native">本地文件已损坏</string> <!-- 返回 -->
+    <string name="Player_error_timeout">网络不太给力哦,如需观看,请重试。</string> <!-- 重新加载 / 返回 -->
+    <string name="player_error_other">优酷君也不知道怎么了，重试一下？</string>
+    <string name="player_error_f101">抱歉，该视频只在中国大陆播放，请您观看其他视频。</string>
+    <string name="player_error_f102">该视频被设为私密，请登录或至优酷网站联系上传者。</string>
+    <string name="player_error_f105">该视频已加密，请输入密码。</string>
+    <string name="player_error_f105_see_others">该视频已加密，暂无法播放，请您观看其他视频。</string>
+    <string name="player_error_f106">抱歉，该视频内容不存在或无效，请您观看其他视频。</string>
+    <string name="player_error_f107">对不起，您输入的密码错误，请重新输入。</string>
+    <string name="player_error_f108">该视频优酷暂无播放版权。</string>
+    <string name="player_error_url_is_nul">抱歉，该视频格式暂不能在您手机上播放，您可以点击进入优酷网尝试观看</string>
+    <string name="player_error_url_is_nul_tudou">抱歉，该视频格式暂不能在您手机上播放，请访问土豆网观看</string>
+    <string name="Player_error_f100">连接服务器异常，请您观看其他视频。</string> <!-- （其它错误） 返回 -->
+    <string name="player_error_account">您的账号分享不合法，超过了IP上限！</string>
+    <string name="player_error_sale">预售未开始</string>
+    <string name="player_error_not_start">视频未开播</string>
+    <string name="player_error_offline">付费视频下线</string>
+    <string name="player_error_no_pay">暂不支持付费视频播放，请到主站观看</string>
+    <string name="super_pic">超清</string>
+    <string name="high_pic">高清  </string>
+    <string name="standard_pic">标清</string>
+    <string name="no_copyright">无版权播放</string>
+    <string name="detail_music">音乐</string>
+    <string name="detail_ugc">ugc</string>
+    <string name="detail_tv">电视剧</string>
+    <string name="detail_movie">电影</string>
+    <string name="detail_variety">综艺</string>
+    <string name="detail_cartoon">动漫</string>
+    <string name="detail_memory">纪录片</string>
+    <string name="detail_education">教育</string>
+    <string name="detail_special">专辑</string> <!-- 详情页结束 --> <!-- 播放历史页 -->
+    <string name="replay">重播</string>
+    <string name="play_next">下集</string>
+    <string name="choice_download_mode">缓存默认设置</string>
+    <string name="player_tip_loading">即将为您播放</string>
+    <string name="playersdk_ad_skip">会员免广告</string>
+    <string name="playersdk_ad_skip_tudou">会员免广告</string>
+    <string name="playersdk_ad_descrip_youku">了解详情</string>
+    <string name="playersdk_ad_descrip_play_ad">观看广告</string>
+    <string name="playersdk_ad_descrip_play_youku">进入观看</string>
+    <string name="playersdk_ad_descrip_second">秒</string>
+    <string name="playersdk_ad_descrip_minute">分</string>
+    <string name="playersdk_ad_hint_tologin_des">登录升级视频观看体验！</string>
+    <string name="playersdk_ad_hint_tologin_ok">马上登录</string>
+    <string name="playersdk_ad_hint_tologin_cancel">稍后再说</string>
+
+    <string name="player_error_dialog_password_required">请输入视频密码</string>
+    <string name="alert_dialog_ok">确定</string>
+    <string name="alert_dialog_cancel">取消</string>
+    <string name="player_tips_use_3g">当前使用2G/3G/4G网络</string>
+    <string name="player_tips_not_responding">网络不给力，请稍后再试。</string>
+    <string name="player_webview_tip">部分设备无法播放，可尝试跳转至其他浏览器播放</string>
+    <string name="player_tips_no_network">当前无网络连接</string>
+    <string name="player_webview_wrong_address">地址错误</string>
+    <string name="player_webview_mail_app_not_found">您的手机木有安装邮箱</string>
+    
+    <string name="tudou_dialog_title">"该视频已加密"</string>
+    <string name="tudou_dialog_input_password">"请输入密码观看"</string>
+    <string name="tudou_dialog_password_error">"密码错误，请重新输入密码"</string>
+    <string name="playersdk_mid_ad_tips">即将进入广告</string>
+    <string name="hello">Hello World, UnicomSDKActivity!</string>
+    <string name="kc_pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="kc_pull_to_refresh_release_label">松开后刷新</string>
+    <string name="kc_pull_to_refresh_refreshing_label">正在刷新\u2026</string>
+    <string name="kc_pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="kc_pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="kc_pull_to_refresh_footer_refreshing_label">正在加载中\u2026</string>
+
+    <string name="youku_ad_dialog_selectdownload_message_wifi">您需要下载此应用吗?</string>
+    <string name="youku_ad_dialog_selectdownload_message_3g">当前处于非WiFi网络环境，您需要下载此应用吗?</string>
+    <string name="youku_ad_dialog_selectdownload_ok">下载</string>
+    <string name="youku_ad_dialog_selectdownload_cancel">取消</string>
+
+    <string name="start_log">记录开始</string>
+    <string name="stop_log">记录结束</string>
+
+    <string name="fullscreen_top_definition_btn">标清</string>
+    <string name="fullscreen_top_series_btn">剧集</string>
+    <string name="detail_pay_already">已购买</string>
+    <string name="buffering_txt_tips">正在缓冲，请稍候</string>
+    <string name="plugin_loading_drm_txt">正在加载DRM播放插件，请稍候</string>
+    <string name="plugin_loading_play_txt">已设置不自动播放</string>
+    <!--v5.2播放器错误提示-->
+    <string name="retry">重试</string>
+    <string name="player_error">收下我的膝盖，原谅我的伤害</string>
+    <string name="player_error_network_unavailable">世界上最遥远的距离是断网</string>
+    <string name="player_error_network_too_slow">剧太火，网太弱，再试试咯</string>
+
+    <!-- V5.2 新增-->
+    <string name="user_login_tip_default">请先登录</string>
+    <string name="plugin_loading_title_txt_tips">加载中</string>
+    <string name="plugin_loading_drm_error_txt">加载DRM插件失败，请重试</string>
+    <string name="detail_3g_play_toast">已设置为2G/3G/4G下不允许播放</string>
+    <string name="series_fragment_empty_txt">加载失败，请刷新重试</string>
+    <string name="settings">设置</string>
+    <string name="setting_bright_tips">亮度</string>
+    <string name="setting_canvas_50">50%</string>
+    <string name="setting_canvas_75">75%</string>
+    <string name="setting_canvas_100">100%</string>
+    <string name="setting_canvas_full">满屏</string>
+    <string name="setting_view_jump_chk">跳过片头片尾</string>
+    <string name="setting_decode_hardware">优先硬解</string>
+    <string name="setting_decode_software">优先软解</string>
+    <string name="setting_continue_forever">始终连播</string>
+    <string name="setting_continue_none">不连播</string>
+    <string name="setting_continue_one">单视频循环</string>
+    <string name="setting_continue">连播设置</string>
+    <string name="setting_decode">播放器解码</string>
+    <string name="setting_decode_tips">硬解码方式将更省电量、画面更清晰</string>
+    <string name="setting_language">语言设置</string>
+    <string name="setting_subtitle">字幕设置</string>
+    <string name="setting_barrage">弹幕设置</string>
+    <string name="setting_canvas_tips">画布</string>
+    <string name="confirm">确定</string>
+    <string name="plugin_loading_title_txt">即将播放：%1$s</string>
+    <string name="cancel">取消</string>
+</resources>

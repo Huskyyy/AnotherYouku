@@ -1,0 +1,101 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="view_header_margin_s">6dp</dimen>
+    <dimen name="view_header_margin_m">8dp</dimen>
+    <dimen name="view_header_margin_l">16dp</dimen>
+    <dimen name="view_header_padding_m">12dp</dimen>
+    <dimen name="view_header_height">24dp</dimen>
+    <dimen name="view_footer_height">30dp</dimen>
+
+
+    <dimen name="image_width_xxxs">8dp</dimen>
+    <dimen name="image_width_xxs">14dp</dimen>
+    <dimen name="image_width_xs">16dp</dimen>
+    <dimen name="image_width_s">22dp</dimen>
+    <dimen name="image_width_m">34dp</dimen>
+    <dimen name="image_width_l">48dp</dimen>
+    <dimen name="image_width_xl">60dp</dimen>
+    <dimen name="image_width_xxl">80dp</dimen>
+    <dimen name="image_width_xxxl">120dp</dimen>
+    <dimen name="image_height_xxxs">8dp</dimen>
+    <dimen name="image_height_xxs">12dp</dimen>
+    <dimen name="image_height_xs">16dp</dimen>
+    <dimen name="image_height_s">22dp</dimen>
+    <dimen name="image_height_m">34dp</dimen>
+    <dimen name="image_height_l">48dp</dimen>
+    <dimen name="image_height_xl">60dp</dimen>
+    <dimen name="image_height_xxl">80dp</dimen>
+    <dimen name="image_height_xxxl">150dp</dimen>
+    <dimen name="image_margin_xs">2dp</dimen>
+    <dimen name="image_margin_s">6dp</dimen>
+    <dimen name="image_margin_m">8dp</dimen>
+    <dimen name="image_margin_l">12dp</dimen>
+    <dimen name="image_margin_xl">20dp</dimen>
+    <dimen name="image_margin_xxl">80dp</dimen>
+    <dimen name="image_padding_xxs">1dp</dimen>
+    <dimen name="image_padding_xs">4dp</dimen>
+    <dimen name="image_padding_s">6dp</dimen>
+    <dimen name="image_padding_m">7dp</dimen>
+    <dimen name="image_padding_l">8dp</dimen>
+    <dimen name="image_padding_xl">10dp</dimen>
+
+    <dimen name="text_size_xxs">10sp</dimen>
+    <dimen name="text_size_xs">11sp</dimen>
+    <dimen name="text_size_s">12sp</dimen>
+    <dimen name="text_size_m">13sp</dimen>
+    <dimen name="text_size_l">14sp</dimen>
+    <dimen name="text_size_xl">16sp</dimen>
+    <dimen name="text_margin_xxs">2dp</dimen>
+    <dimen name="text_margin_xs">3dp</dimen>
+    <dimen name="text_margin_s">4dp</dimen>
+    <dimen name="text_margin_m">6dp</dimen>
+    <dimen name="text_margin_l">10dp</dimen>
+    <dimen name="text_margin_xl">12dp</dimen>
+    <dimen name="text_margin_xxl">40dp</dimen>
+    <dimen name="text_margin_xxxl">50dp</dimen>
+    <dimen name="text_padding_xs">2dp</dimen>
+    <dimen name="text_padding_s">3dp</dimen>
+    <dimen name="text_padding_m">4dp</dimen>
+    <dimen name="text_padding_l">6dp</dimen>
+    <dimen name="text_padding_xl">10dp</dimen>
+    <dimen name="text_width_s">60dp</dimen>
+    <dimen name="text_width_m">200dp</dimen>
+    <dimen name="text_height_xs">24dp</dimen>
+    <dimen name="text_height_s">28dp</dimen>
+    <dimen name="text_height_m">40dp</dimen>
+
+    <dimen name="card_margin_xs">2dp</dimen>
+    <dimen name="card_margin_s">6dp</dimen>
+    <dimen name="card_margin_m">12dp</dimen>
+    <dimen name="card_margin_l">18dp</dimen>
+    <dimen name="card_margin_xl">20dp</dimen>
+    <dimen name="card_height_s">28dp</dimen>
+    <dimen name="card_corner_radius_s">2dp</dimen>
+    <dimen name="card_elevation_s">1dp</dimen>
+
+    <dimen name="tab_height_default">48dp</dimen>
+
+    <dimen name="view_padding_m">6dp</dimen>
+    <dimen name="view_padding_l">12dp</dimen>
+    <dimen name="view_margin_xs">2dp</dimen>
+    <dimen name="view_margin_s">4dp</dimen>
+    <dimen name="view_margin_xl">46dp</dimen>
+    <dimen name="view_height_m">40dp</dimen>
+    <dimen name="view_height_xl">200dp</dimen>
+
+    <dimen name="indicator_height_m">2dp</dimen>
+
+    <dimen name="edit_text_padding_l">20dp</dimen>
+
+    <!--设置flowLayout第一行的偏置-->
+    <dimen name="offset_width">40dp</dimen>
+
+</resources>

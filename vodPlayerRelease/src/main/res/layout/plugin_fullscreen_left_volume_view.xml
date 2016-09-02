@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/plugin_fullscreen_left_volume_view_bg_width"
+    android:layout_height="match_parent"
+    android:background="@drawable/plugin_fullscreen_left_volume_view_bg" >
+
+    <LinearLayout
+        android:id="@+id/plugin_fullscreen_left_volumebar_layout"
+        android:layout_width="@dimen/plugin_fullscreen_left_volume_view_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <com.youku.player.plugin.fullscreen.view.VerticalSeekBar
+            android:id="@+id/plugin_fullscreen_left_volumebar"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/plugin_fullscreen_left_volumebar_height"
+            android:progressDrawable="@drawable/player_fullscreen_plugin_left_progressbar"
+            android:thumb="@drawable/play_icon_volume_ball"
+            android:padding="@dimen/plugin_fullscreen_left_volume_margin"/>
+
+        <LinearLayout
+            android:id="@+id/plugin_fullscreen_left_volume_img_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/plugin_fullscreen_left_volume_img_layout_height"
+            android:layout_marginTop="@dimen/plugin_fullscreen_left_volume_margin"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/plugin_fullscreen_left_volume_img"
+                android:layout_width="@dimen/plugin_fullscreen_left_volume_img_width"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/fullscreen_left_volume" >
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

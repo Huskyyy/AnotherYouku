@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/plugin_series_fragment_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/plugin_series_fragment_top" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/plugin_series_fragment_swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <GridView
+                android:id="@+id/plugin_series_fragment_gridview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="0dp"
+                android:cacheColorHint="@color/transparent"
+                android:fadingEdge="none"
+                android:gravity="center"
+                android:horizontalSpacing="0dp"
+                android:listSelector="@color/transparent"
+                android:numColumns="5"
+                android:padding="0dp"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="0dp" >
+            </GridView>
+
+            <com.youku.player.plugin.fullscreen.view.PluginSeriesEmptyView
+                android:id="@+id/plugin_series_fragment_empty_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:visibility="gone" >
+            </com.youku.player.plugin.fullscreen.view.PluginSeriesEmptyView>
+        </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "D:\\github\\AnotherYouku\\flowLayout\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 844,
+                    "endColumn": 74,
+                    "endOffset": 914
+                },
+                "from": {
+                    "file": "D:\\github\\AnotherYouku\\flowLayout\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\23.0.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 551,
+                        "endColumn": 74,
+                        "endOffset": 621
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 919,
+                    "endColumn": 65,
+                    "endOffset": 980
+                },
+                "from": {
+                    "file": "D:\\github\\AnotherYouku\\flowLayout\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\23.0.1\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 847,
+                        "endColumn": 65,
+                        "endOffset": 908
+                    }
+                }
+            }
+        ]
+    }
+]

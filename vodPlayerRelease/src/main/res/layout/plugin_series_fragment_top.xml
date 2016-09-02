@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/plugin_series_fragment_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/plugin_series_fragment_top_layout_height" >
+
+        <ImageView
+            android:id="@+id/series_top_back_btn"
+            android:layout_width="@dimen/series_top_back_btn_width"
+            android:layout_height="@dimen/series_top_back_btn_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/series_top_back_btn" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/series_top_back_btn"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/series_top_title_first"
+                style="@style/series_top_title_first"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/series_top_title_first_height"
+                android:layout_marginLeft="@dimen/series_top_title_first_marginleft"
+                android:ellipsize="end"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/series_top_title_second"
+                style="@style/series_top_title_second"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/series_top_title_second_height"
+                android:layout_marginLeft="@dimen/series_top_title_first_marginleft"
+                android:ellipsize="end"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="#ff535353" />
+    </RelativeLayout>
+
+</LinearLayout>

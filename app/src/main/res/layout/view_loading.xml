@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/view_height_xl"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <com.pnikosis.materialishprogress.ProgressWheel
+        android:id="@+id/progressbar"
+        android:layout_width="@dimen/image_width_l"
+        android:layout_height="@dimen/image_height_l" />
+
+</LinearLayout>

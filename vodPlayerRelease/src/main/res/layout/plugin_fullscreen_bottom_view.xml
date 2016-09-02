@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/plugin_fullscreen_bottom_view_bg_height"
+    android:background="@drawable/plugin_fullscreen_bottom_view_bg" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:clickable="true" >
+
+        <RelativeLayout
+            android:id="@+id/plugin_fullscreen_seekbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" >
+
+            <SeekBar
+                android:id="@+id/plugin_fullscreen_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:progressDrawable="@drawable/player_fullscreen_plugin_progressbar"
+                android:thumb="@drawable/plugin_fullscreen_seekbar_thumb" />
+
+            <!--<com.youku.phone.detail.player.view.HotPointView
+                android:id="@+id/plugin_fullscreen_hotpoint_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/plugin_fullscreen_seekbar"
+                android:layout_alignTop="@id/plugin_fullscreen_seekbar" >
+            </com.youku.phone.detail.player.view.HotPointView>-->
+
+           <!-- <com.youku.phone.detail.player.view.InteractPointView
+                android:id="@+id/plugin_fullscreen_interactpoint_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/plugin_fullscreen_seekbar"
+                android:layout_alignTop="@id/plugin_fullscreen_seekbar" >
+            </com.youku.phone.detail.player.view.InteractPointView>-->
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/plugin_fullscreen_bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/plugin_fullscreen_bottom_layout_height"
+            android:layout_below="@id/plugin_fullscreen_seekbar_layout"
+            android:gravity="top"
+            android:paddingRight="@dimen/plugin_fullscreen_bottom_layout_paddingright" >
+
+            <ImageView
+                android:id="@+id/plugin_fullscreen_play_control_btn"
+                android:layout_width="@dimen/plugin_fullscreen_play_control_btn_width"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/plugin_fullscreen_play_control_play" />
+
+            <ImageView
+                android:id="@+id/plugin_fullscreen_play_next_btn"
+                android:layout_width="@dimen/plugin_fullscreen_play_next_btn_width"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/plugin_fullscreen_play_control_btn"
+                android:src="@drawable/plugin_fullscreen_play_next"
+                android:visibility="gone"/>
+
+            <RelativeLayout
+                android:id="@+id/plugin_fullscreen_time_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/plugin_fullscreen_time_height"
+                android:layout_toRightOf="@id/plugin_fullscreen_play_next_btn" >
+
+                <TextView
+                    android:id="@+id/plugin_fullscreen_time_left"
+                    style="@style/plugin_fullscreen_time_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="@dimen/plugin_fullscreen_time_paddingleftright"
+                    android:paddingRight="@dimen/plugin_fullscreen_time_paddingleftright"
+                    android:text="00:00" />
+
+                <TextView
+                    android:id="@+id/plugin_fullscreen_time_middle"
+                    style="@style/plugin_fullscreen_time_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/plugin_fullscreen_time_left"
+                    android:text="/" />
+
+                <TextView
+                    android:id="@+id/plugin_fullscreen_time_right"
+                    style="@style/plugin_fullscreen_time_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/plugin_fullscreen_time_middle"
+                    android:paddingLeft="@dimen/plugin_fullscreen_time_paddingleftright"
+                    android:paddingRight="@dimen/plugin_fullscreen_time_paddingleftright"
+                    android:text="00:00" />
+
+                <TextView
+                    android:id="@+id/plugin_fullscreen_havebuy_txt"
+                    style="@style/plugin_fullscreen_havebuy_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/plugin_fullscreen_havebuy_txt_marginleft"
+                    android:layout_toRightOf="@id/plugin_fullscreen_time_right"
+                    android:background="@drawable/player_havebuy_btn_bg"
+                    android:padding="@dimen/plugin_fullscreen_time_paddingleftright"
+                    android:text="@string/detail_pay_already"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/plugin_fullscreen_small_btn"
+                android:layout_width="@dimen/plugin_fullscreen_bottom_btn_width"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/plugin_fullscreen_small_btn" />
+
+            <ImageView
+                android:id="@+id/plugin_fullscreen_bottom_lock_btn"
+                android:layout_width="@dimen/plugin_fullscreen_bottom_btn_width"
+                android:layout_height="match_parent"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toLeftOf="@id/plugin_fullscreen_small_btn"
+                android:src="@drawable/plugin_fullscreen_bottom_lock_btn" />
+
+            <ImageView
+                android:id="@+id/plugin_fullscreen_bottom_rotate_btn"
+                android:layout_width="@dimen/plugin_fullscreen_bottom_btn_width"
+                android:layout_height="match_parent"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toLeftOf="@id/plugin_fullscreen_bottom_lock_btn"
+                android:src="@drawable/plugin_fullscreen_bottom_rotate_btn"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:id="@+id/plugin_fullscreen_bottom_right_line_layout"
+                android:layout_width="@dimen/plugin_fullscreen_bottom_line_layout_width"
+                android:layout_height="@dimen/plugin_fullscreen_time_height"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toLeftOf="@id/plugin_fullscreen_bottom_rotate_btn"
+                android:gravity="center" >
+
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="#80a4a4a4" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/plugin_fullscreen_bottom_download_btn"
+                android:layout_width="@dimen/plugin_fullscreen_bottom_btn_width"
+                android:layout_height="match_parent"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toLeftOf="@id/plugin_fullscreen_bottom_right_line_layout"
+                android:src="@drawable/plugin_fullscreen_bottom_download_btn"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/plugin_fullscreen_bottom_collect_btn"
+                android:layout_width="@dimen/plugin_fullscreen_bottom_btn_width"
+                android:layout_height="match_parent"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toLeftOf="@id/plugin_fullscreen_bottom_download_btn"
+                android:src="@drawable/plugin_fullscreen_bottom_collect_btn"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/plugin_fullscreen_bottom_share_btn"
+                android:layout_width="@dimen/plugin_fullscreen_bottom_btn_width"
+                android:layout_height="match_parent"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toLeftOf="@id/plugin_fullscreen_bottom_collect_btn"
+                android:src="@drawable/plugin_fullscreen_bottom_share_btn"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/plugin_fullscreen_bottom_ding_btn"
+                android:layout_width="@dimen/plugin_fullscreen_bottom_btn_width"
+                android:layout_height="match_parent"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toLeftOf="@id/plugin_fullscreen_bottom_share_btn"
+                android:src="@drawable/plugin_fullscreen_bottom_ding_btn"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/plugin_fullscreen_bottom_keyboard_btn"
+                android:layout_width="@dimen/plugin_fullscreen_bottom_btn_width"
+                android:layout_height="match_parent"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toLeftOf="@id/plugin_fullscreen_bottom_ding_btn"
+                android:src="@drawable/plugin_fullscreen_bottom_keyboard_btn"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/plugin_fullscreen_bottom_barrage_btn"
+                android:layout_width="@dimen/plugin_fullscreen_bottom_btn_width"
+                android:layout_height="match_parent"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toLeftOf="@id/plugin_fullscreen_bottom_keyboard_btn"
+                android:src="@drawable/plugin_fullscreen_bottom_barrage_btn"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:id="@+id/plugin_fullscreen_bottom_left_line_layout"
+                android:layout_width="@dimen/plugin_fullscreen_bottom_line_layout_width"
+                android:layout_height="@dimen/plugin_fullscreen_time_height"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toLeftOf="@id/plugin_fullscreen_bottom_barrage_btn"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="#80a4a4a4" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/plugin_fullscreen_bottom_dlna_btn"
+                android:layout_width="@dimen/plugin_fullscreen_bottom_btn_width"
+                android:layout_height="match_parent"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toLeftOf="@id/plugin_fullscreen_bottom_left_line_layout"
+                android:src="@drawable/plugin_fullscreen_bottom_dlna_btn"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/plugin_fullscreen_bottom_loop_btn"
+                android:layout_width="@dimen/plugin_fullscreen_bottom_btn_width"
+                android:layout_height="match_parent"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toLeftOf="@id/plugin_fullscreen_bottom_dlna_btn"
+                android:src="@drawable/plugin_fullscreen_bottom_loop_btn"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/plugin_fullscreen_bottom_live_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/plugin_fullscreen_bottom_layout"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/plugin_fullscreen_bottom_live_line_paddingbottom"
+            android:paddingLeft="@dimen/plugin_fullscreen_bottom_layout_paddingright"
+            android:paddingRight="@dimen/plugin_fullscreen_bottom_layout_paddingright"
+            android:visibility="gone" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#80a4a4a4" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

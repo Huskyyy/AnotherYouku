@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/floating_thumb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></RelativeLayout>
+
+    <!-- 顶部浮层 -->
+    <!--<include-->
+        <!--android:id="@+id/floating_top"-->
+        <!--layout="@layout/layout_floating_top"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:gravity="center_vertical" />-->
+    <RelativeLayout
+        android:id="@+id/floating_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:clickable="true"></RelativeLayout>
+
+
+    <!-- 底部浮层 -->
+    <RelativeLayout
+        android:id="@+id/floating_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"></RelativeLayout>
+
+
+</RelativeLayout>

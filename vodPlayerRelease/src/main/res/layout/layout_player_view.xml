@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <!-- 负责播放的view -->
+
+    <RelativeLayout
+        android:id="@+id/layout_player_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/black">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/loadingLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            style="@android:style/Widget.ProgressBar"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_margin="6dp"
+            android:indeterminateDrawable="@drawable/loading_rotate" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:text="正在缓冲请稍候"
+            android:textColor="#ffffff"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23kb"
+            android:textColor="#c7c7c7"
+            android:textSize="12dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/layout_floating"
+        layout="@layout/layout_floating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/layout_player_view"
+        android:layout_alignTop="@id/layout_player_view" />
+
+    <com.ykcloud.sdk.opentools.player.skin.widget.NoticeView
+        android:id="@+id/layout_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/layout_player_view"
+        android:layout_alignTop="@id/layout_player_view"
+        android:visibility="gone" />
+    <RelativeLayout
+        android:id="@+id/layout_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></RelativeLayout>
+
+</RelativeLayout>

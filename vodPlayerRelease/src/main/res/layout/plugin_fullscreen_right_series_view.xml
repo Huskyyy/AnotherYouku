@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/plugin_fullscreen_right_series_layout"
+    android:layout_width="@dimen/plugin_fullscreen_right_series_layout_width"
+    android:layout_height="match_parent"
+    android:background="#f32f2f2f"
+    android:orientation="vertical" >
+</LinearLayout>

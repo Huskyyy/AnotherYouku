@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:qwerjk="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/full_holder_inner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.youku.player.NewSurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:focusableInTouchMode="true"
+        />
+    
+    <com.youku.player.subtitle.StrokeTextView 
+        android:id="@+id/single_subtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/subtitle_font_margin_bottom"
+        android:textSize="@dimen/subtitle_font_size"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        />
+    
+    <com.youku.player.subtitle.StrokeTextView 
+        android:id="@+id/subtitle_first"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/subtitle_font_margin_bottom"
+        android:textSize="@dimen/subtitle_font_size_for_english"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        />
+    
+    <com.youku.player.subtitle.StrokeTextView 
+        android:id="@+id/subtitle_second"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/subtitle_first"
+        android:textSize="@dimen/subtitle_font_size"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        />
+
+    <com.youku.player.subtitle.StrokeTextView
+        android:id="@+id/license_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/water_mark_margin_top"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@id/surface_view"
+        android:layout_marginRight="@dimen/water_mark_margin_right"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/register_num_textsize"/>
+
+    <ImageView
+        android:id="@+id/water_mark"
+        android:layout_width="@dimen/water_mark_width"
+        android:layout_height="@dimen/water_mark_height"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@id/surface_view"
+        android:layout_marginRight="@dimen/water_mark_margin_right"
+        android:layout_marginTop="@dimen/water_mark_margin_top"
+        android:src="@drawable/play_water_mark"
+        android:visibility="invisible" />
+
+    <com.youku.player.subtitle.StrokeTextView
+        android:id="@+id/youku_register_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/water_mark_margin_top"
+        android:layout_marginRight="@dimen/register_num_margin_right"
+        android:layout_toLeftOf="@id/water_mark"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/register_num_textsize"/>
+
+    <ImageView
+        android:id="@+id/tudou_water_mark"
+        android:layout_width="@dimen/tudou_water_mark_width"
+        android:layout_height="@dimen/tudou_water_mark_height"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/tudou_water_mark_margin_right"
+        android:layout_marginTop="@dimen/tudou_water_mark_margin_top"
+        android:src="@drawable/play_mark_01"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/surface_view_debug"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        android:textColor="#00ff1e"
+        android:textSize="8sp" />
+
+    <View
+        android:id="@+id/surface_black"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#000000" />
+
+</RelativeLayout>

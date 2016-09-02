@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="300dp" android:layout_height="170dp"
+	android:paddingLeft="10dp" android:paddingRight="5dp"
+	android:paddingTop="5dp" android:paddingBottom="10dp"
+	android:background="@drawable/unicom_dialog_bg" android:orientation="vertical">
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="50dp">
+
+		<TextView android:text="手机号" android:layout_width="wrap_content"
+			android:layout_height="20dp" android:textColor="@android:color/black"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentBottom="true" />
+
+		<ImageView android:src="@drawable/unicom_icon"
+			android:layout_centerInParent="true" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+	</RelativeLayout>
+
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_height="30dp" android:layout_width="fill_parent">
+		<EditText android:id="@+id/unicom_et_moblieNmuber"
+			android:layout_width="fill_parent" android:layout_height="30dp"
+			android:background="@drawable/unicom_edit_bg" android:layout_weight="0.4" />
+
+		<TextView android:text="获取短信验证码" android:id="@+id/unicom_btn_yzm"
+			android:layout_height="fill_parent" android:layout_marginLeft="3dp"
+			android:gravity="center" android:textSize="10sp"
+			android:layout_width="fill_parent" android:textColor="@android:color/white"
+			android:layout_weight="0.6" android:background="@drawable/unicom_btn_yellow" />
+	</LinearLayout>
+
+	<TextView android:text="验证码" android:layout_width="wrap_content"
+		android:layout_marginTop="20dp" android:layout_height="20dp"
+		android:textColor="@android:color/black" />
+	<LinearLayout android:orientation="horizontal"
+		android:weightSum="1.0" android:layout_height="30dp"
+		android:layout_width="fill_parent">
+		<EditText android:id="@+id/unicom_et_yzm" android:layout_width="fill_parent"
+			android:layout_height="30dp" android:background="@drawable/unicom_edit_bg"
+			android:layout_weight="0.4" />
+
+		<TextView android:id="@+id/unicom_btn_activation" android:text="激活"
+			android:layout_height="fill_parent" android:layout_marginLeft="3dp"
+			android:gravity="center" android:textSize="10sp"
+			android:layout_width="fill_parent" android:textColor="@android:color/white"
+			android:layout_weight="0.6" android:background="@drawable/unicom_btn_green" />
+	</LinearLayout>
+
+
+</LinearLayout>

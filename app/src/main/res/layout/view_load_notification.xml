@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/view_height_xl"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_load_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/text_padding_l"
+        android:gravity="center"
+        style="@style/SecondaryTextStyle.Large.Dark"/>
+
+    <TextView
+        android:id="@+id/tv_load"
+        android:layout_width="@dimen/text_width_s"
+        android:layout_height="@dimen/text_height_s"
+        android:padding="@dimen/text_padding_l"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/bg_btn_unselected"
+        style="@style/PrimaryTextStyle.Large.Light"/>
+
+</LinearLayout>

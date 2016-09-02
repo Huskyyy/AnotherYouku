@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_hot_header"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/view_header_height"
+    android:paddingLeft="@dimen/view_header_padding_m"
+    android:paddingRight="@dimen/view_header_padding_m"
+    android:layout_marginTop="@dimen/view_header_margin_l"
+    android:layout_marginBottom="@dimen/view_header_margin_m"
+    android:background="?attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="@dimen/image_width_s"
+        android:layout_height="@dimen/image_height_s"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_whatshot_black_24dp"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv_logo"
+        android:layout_marginLeft="@dimen/text_margin_s"
+        android:gravity="center"
+        style="@style/PrimaryTextStyle.Large"
+        android:text="@string/hot_header_name"/>
+
+    <TextView
+        android:id="@+id/tv_explore_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:text="@string/hot_header_rank"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_xs"
+        android:padding="@dimen/text_padding_m"
+        android:background="@drawable/bg_hot_header_explore"/>
+
+</RelativeLayout>

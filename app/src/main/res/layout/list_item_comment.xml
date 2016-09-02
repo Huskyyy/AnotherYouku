@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/view_padding_l"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackground">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="@dimen/image_width_l"
+        android:layout_height="@dimen/image_height_l"
+        android:padding="@dimen/image_padding_xs"
+        android:layout_marginLeft="@dimen/image_margin_l"
+        android:scaleType="centerCrop"
+        app:civ_border_width="1px"
+        app:civ_border_color="@color/white"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="@dimen/text_width_m"
+        android:layout_height="@dimen/text_height_xs"
+        android:layout_toRightOf="@id/iv_avatar"
+        android:layout_marginLeft="@dimen/text_margin_m"
+        android:layout_marginRight="@dimen/text_margin_xl"
+        android:gravity="bottom"
+        style="@style/SecondaryTextStyle.Large.Dark"
+        android:lines="1"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/tv_publish"
+        android:layout_width="@dimen/text_width_m"
+        android:layout_height="@dimen/text_height_xs"
+        android:layout_below="@id/tv_name"
+        android:layout_toRightOf="@id/iv_avatar"
+        android:layout_marginLeft="@dimen/text_margin_m"
+        android:layout_marginRight="@dimen/text_margin_xl"
+        android:paddingTop="@dimen/text_padding_s"
+        style="@style/SecondaryTextStyle.Light"
+        android:lines="1"
+        android:ellipsize="end"/>
+
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="@dimen/image_width_s"
+        android:layout_height="@dimen/image_height_s"
+        android:padding="@dimen/image_padding_xs"
+        android:layout_marginRight="@dimen/image_margin_l"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_delete_grey_400_24dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:visibility="gone"/>
+
+    <com.huskyyy.anotheryouku.widget.CommentTextView
+        android:id="@+id/tv_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_avatar"
+        android:layout_marginLeft="@dimen/text_margin_m"
+        android:layout_below="@id/iv_avatar"
+        android:layout_marginTop="@dimen/text_margin_s"
+        android:layout_marginBottom="@dimen/text_margin_xl"
+        android:layout_marginRight="@dimen/text_margin_xl"
+        android:textColorLink="@color/colorPrimary"
+        style="@style/PrimaryTextStyle.Large">
+    </com.huskyyy.anotheryouku.widget.CommentTextView>
+
+    <View
+        android:id="@+id/view_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray_x_light"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

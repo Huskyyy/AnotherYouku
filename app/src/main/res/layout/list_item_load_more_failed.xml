@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/view_height_m"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin_m"
+        android:gravity="center"
+        style="@style/SecondaryTextStyle"
+        android:text="@string/load_failed">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin_m"
+        android:padding="@dimen/text_padding_l"
+        android:background="@drawable/bg_btn_light"
+        android:text="@string/retry"
+        android:textColor="@color/color_btn_light_text"
+        android:textSize="@dimen/text_size_l"
+        android:gravity="center"/>
+
+
+</LinearLayout>

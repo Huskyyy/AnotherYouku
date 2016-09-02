@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:oneshot="true"
+  >
+  	<item android:drawable="@drawable/play_mark_01" android:duration="10000"></item>
+  	<item android:drawable="@drawable/play_mark_02" android:duration="10"></item>
+  	<item android:drawable="@drawable/play_mark_03" android:duration="10"></item>
+  	<item android:drawable="@drawable/play_mark_04" android:duration="10"></item>
+  	<item android:drawable="@drawable/play_mark_05" android:duration="10"></item>
+  	<item android:drawable="@drawable/play_mark_06" android:duration="10"></item>
+  	<item android:drawable="@drawable/play_mark_07" android:duration="10"></item>
+  	<item android:drawable="@drawable/play_mark_08" android:duration="10"></item>
+  	<item android:drawable="@drawable/play_mark_09" android:duration="10"></item>
+  	<item android:drawable="@drawable/play_mark_10" android:duration="10"></item>
+  	<item android:drawable="@drawable/play_mark_11" android:duration="10"></item>
+  	<item android:drawable="@drawable/play_mark_12" android:duration="150"></item>
+</animation-list>

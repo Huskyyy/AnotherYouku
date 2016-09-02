@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- youku dialog -->
+    <dimen name="yp_youku_dialog_width">552dp</dimen>
+    <dimen name="yp_youku_dialog_height">295dp</dimen>
+    <dimen name="yp_youku_dialog_bottom_height">93dp</dimen>
+    <dimen name="yp_youku_dialog_txt_cancel_textsize">30dp</dimen>
+    <dimen name="yp_edittext_add_txt_linespacingextra">5dp</dimen>
+    <dimen name="yp_normal_content_textsize">36dp</dimen>
+    
+    
+    <dimen name="paytip_full_height">109dp</dimen>
+    <dimen name="paytip_close_width">74dp</dimen>
+    <dimen name="paytip_close_height">65dp</dimen>
+    <dimen name="paytip_close_margin">17dp</dimen>
+    <dimen name="paytip_full_tip_width">240dp</dimen>
+    <dimen name="paytip_full_arrow_width">52dp</dimen>
+    <dimen name="paytip_full_textsize">20dp</dimen>
+    <dimen name="paytip_small_textsize">24dp</dimen>
+    <dimen name="paytip_full_margin_bottom">172dp</dimen>
+    <dimen name="paytip_small_tip_width">96dp</dimen>
+    <dimen name="paytip_small_margin_bottom">96dp</dimen>
+
+     <!-- youku investigate ad -->
+    <dimen name="yp_investigate_height">65dp</dimen>
+    <dimen name="yp_investigate_close_width">74dp</dimen>
+    <dimen name="yp_investigate_text_container_width">96dp</dimen>
+    <dimen name="yp_investigate_text_margin_left">17dp</dimen>
+    <dimen name="yp_investigate_text_size">24dp</dimen>
+    <dimen name="yp_investigate_arrowright_width">52dp</dimen>
+    <dimen name="yp_investigate_margin_bottom">172dp</dimen>
+
+    <!-- 播放器 tudou -->
+    <dimen name="player_ad_trueview_ship_width_tudou">238dp</dimen>
+    <dimen name="player_ad_trueview_play_width_tudou">172dp</dimen>
+    <dimen name="player_ad_trueview_ad_more_width_tudou">174dp</dimen>
+
+    <!-- 播放广告 youku -->
+    <dimen name="player_ad_trueview_skip_margin_bottom_youku">30dp</dimen>
+    <dimen name="player_ad_trueview_count_text_size_youku">29sp</dimen>
+    <dimen name="player_ad_count_text_size_youku">22dp</dimen>
+    <dimen name="player_ad_text_height_youku">62dp</dimen>
+    <dimen name="player_ad_skip_width_youku">144dp</dimen>
+    <dimen name="player_ad_trueview_ship_width_youku">360dp</dimen>
+    <dimen name="player_ad_trueview_ship_offline_width_youku">290dp</dimen>
+    <dimen name="player_ad_more_width_youku">144dp</dimen>
+    <dimen name="player_ad_go_full_width_youku">70dp</dimen>
+    <dimen name="player_ad_more_padding_youku">11dp</dimen>
+    <dimen name="player_ad_tip_text_size_youku">20sp</dimen>
+    <dimen name="player_ad_tip_width_youku">58dp</dimen>
+    <dimen name="player_ad_tip_height_youku">34dp</dimen>
+    <dimen name="player_ad_tip_width_tudou">102dp</dimen>
+    <dimen name="player_ad_tip_height_tudou">63dp</dimen>
+    <dimen name="player_ad_tip_text_size_tudou">33sp</dimen>
+    <!-- water mark -->
+    <dimen name="water_mark_width">100dp</dimen>
+    <dimen name="water_mark_height">66dp</dimen>
+    <dimen name="water_mark_margin_right">30dp</dimen>
+    <dimen name="water_mark_margin_top">30dp</dimen>
+    <dimen name="register_num_stroke_widht">1dp</dimen>
+    <dimen name="register_num_margin_right">16dp</dimen>
+    <dimen name="register_num_textsize">20dp</dimen>
+    <dimen name="license_num_margin_bottom_h">120dp</dimen>
+    <dimen name="license_num_margin_bottom_v">80dp</dimen>
+
+    <!-- tudou water mark -->
+    <dimen name="tudou_water_mark_width">84dp</dimen>
+    <dimen name="tudou_water_mark_height">84dp</dimen>
+    <dimen name="tudou_water_mark_margin_right">31dp</dimen>
+    <dimen name="tudou_water_mark_margin_top">14dp</dimen>
+    <dimen name="tudou_full_water_mark_margin_right">42dp</dimen>
+    <dimen name="tudou_full_water_mark_margin_top">30dp</dimen>
+    
+    <!-- subtitle -->
+    <dimen name="subtitle_font_size">38dp</dimen>
+    <dimen name="subtitle_font_size_for_english">26dp</dimen>
+    <dimen name="subtitle_stroke_width">4dp</dimen>
+    <dimen name="subtitle_font_padding">2dp</dimen>
+    <dimen name="subtitle_font_margin_bottom">20dp</dimen>
+
+    <!-- danmaku -->
+    <dimen name="danmaku_text_size">55px</dimen>
+
+    <!--联通免流弹出框-->
+    <dimen name="free_flow_dialog_top_margin">40dip</dimen>
+    <dimen name="free_flow_dialog_top_text_size">36sp</dimen>
+    <dimen name="free_flow_dialog_bottom_text_size">40sp</dimen>
+    <dimen name="free_flow_dialog_width">552dp</dimen>
+    <dimen name="free_flow_dialog_button_height">110dp</dimen>
+    
+</resources>

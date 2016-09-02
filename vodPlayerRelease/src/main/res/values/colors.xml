@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 字体蓝 -->
+    <color name="color_ff00a0e9">#ff00a0e9</color>
+	<color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- 播放器控制 -->
+    <color name="player_controller_background">#bf000000</color>
+    <color name="player_controller_background_half_alpha">#7f000000</color>
+
+    <!-- 通用默认颜色 -->
+    <color name="text_color_blue">#2bb5fc</color>
+    <color name="text_color_blue_1">#29abe2</color>
+    
+    <color name="text_color_white">#ffffff</color>
+    <color name="text_color_white_d">#ccffffff</color>
+    
+    <color name="text_color_black">#000000</color>
+    
+    <color name="text_color_gray_9">#333333</color>
+    <color name="text_color_gray_7">#666666</color>
+    <color name="text_color_gray_5">#8c8c8c</color>
+    <color name="text_color_gray_3">#999999</color>
+    <color name="text_color_gray_2">#909fa8</color>
+    <color name="text_color_gray_1">#e2e2e2</color>
+    
+    <color name="text_color_red_1">#ff5a5a</color>
+    <!-- youku dialog cancel button -->
+    <color name="yp_youku_dialog_cancel_normal">#fffafafa</color>
+	<color name="yp_youku_dialog_cancel_pressed">#ffe7e7e7</color>
+	<color name="yp_youku_dialog_ok_normal">#1500baff</color>
+	<color name="yp_youku_dialog_ok_pressed">#33049dd5</color>
+	
+	<!-- tudou dialog color -->
+	<color name="tudou_dialog_title">#3c3c3c</color>
+    <color name="tudou_dialog_encrypt_tips">#898989</color>
+    <color name="tudou_dialog_line">#d9d9d9</color>
+    <color name="tudou_dialog_button">#ff6600</color>
+    <color name="yp_ad_text_color_tudou">#ff6600</color>
+
+    <color name="yp_ad_pause_tip_background_color_tudou">#B3000000</color>
+    <color name="yp_ad_pause_background_color_tudou">#7F000000</color>
+    <!-- tudou ad icon background color -->
+    <color name="yp_ad_background_color_tudou">#E5171717</color>
+    <!-- youku ad icon background color -->
+    <color name="yp_ad_background_color_youku">#cc292929</color>
+    <color name="yp_ad_skip_trueview_text_color_youku">#ff1e1e</color>
+    <color name="yp_ad_skip_trueview_background_color_youku">#ccffffff</color>
+    <color name="yp_ad_skip_trueview_text_color_tudou">#ccffffff</color>
+
+    <!-- youku subtitle border color -->
+    <color name="border_text" >#f0000000</color>
+
+    <color name="register_num_border_text" >#222222</color>
+
+    <color name="player_vip_color">#ff000000</color>
+    <color name="series_item_txt_unable_color">#33ffffff</color>
+    <color name="series_item_txt_white_color">#ffd1d1d1</color>
+    <color name="series_item_txt_gray_color">#ff666666</color>
+    <color name="series_item_txt_blue_color">#ff15a4ff</color>
+    <color name="series_item_bg_blue_color">#ff19547c</color>
+    <color name="series_item_bg_txt_gray_color">#ff538cb0</color>
+    <color name="plugin_fragment_swipe_color1">#ff0ba2ff</color>
+    <color name="plugin_fragment_swipe_color2">#ff3fb5fe</color>
+    <color name="plugin_fragment_swipe_color3">#ff65c4ff</color>
+    <color name="plugin_fragment_swipe_color4">#ff9cd9ff</color>
+    <color name="fullscreen_setting_view_background_color">#f32f2f2f</color>
+    <color name="setting_view_title_line_color">#1affffff</color>
+    <color name="setting_view_title_color">#ffffffff</color>
+</resources>

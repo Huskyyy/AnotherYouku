@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/iv_emoticon"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:layout_alignBottom="@+id/et_comment"
+        android:src="@drawable/ic_emoticon_48dp" />
+
+    <ImageView
+        android:id="@+id/iv_send"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/et_comment"
+        android:src="@drawable/ic_send_gray_48dp" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_comment"
+        android:textSize="14sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/colorPrimary"
+        android:textCursorDrawable="@drawable/bg_cursor"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@id/iv_emoticon"
+        android:layout_toLeftOf="@id/iv_send"
+        android:textColorHighlight="@color/colorPrimary"
+        android:maxLines="4"
+        android:minLines="2"/>
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/et_comment"
+        android:layout_marginTop="4dp"
+        android:background="@color/gray_x_light"/>
+
+
+    <GridView
+        android:id="@+id/view_faces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_line"
+        android:padding="12dp"
+        android:visibility="gone"
+        android:numColumns="6"
+        android:gravity="center"></GridView>
+
+</merge>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <!--<com.youku.phone.detail.player.view.PluginFullScreenLiveCenterView
+        android:id="@+id/pluginFullScreenLiveCenterView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />-->
+
+    <com.youku.player.plugin.fullscreen.view.PluginFullScreenLeftVolumeView
+        android:id="@+id/pluginFullScreenLeftVolumeView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone" />
+
+    <com.youku.player.plugin.fullscreen.view.PluginFullScreenTopView
+        android:id="@+id/pluginFullScreenTopView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+
+    <com.youku.player.plugin.fullscreen.view.PluginFullScreenBottomView
+        android:id="@+id/pluginFullScreenBottomView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/play_seekbar_center_time"
+        style="@style/play_seekbar_center_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/play_controller_center_time"
+        style="@style/player_setting_center_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/gesture_icon_margintop"
+        android:drawablePadding="10dp"
+        android:drawableTop="@drawable/play_gesture_forward"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/play_controller_center_bright"
+        style="@style/player_setting_center_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/gesture_icon_margintop"
+        android:drawablePadding="10dp"
+        android:drawableTop="@drawable/play_gesture_brightness"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/play_controller_center_volume"
+        style="@style/player_setting_center_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/gesture_icon_margintop"
+        android:drawablePadding="10dp"
+        android:drawableTop="@drawable/play_gesture_volume"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/play_controller_fullscreen_vertical_btn"
+        android:layout_width="@dimen/plugin_fullscreen_bottom_btn_width"
+        android:layout_height="@dimen/plugin_fullscreen_bottom_btn_width"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/play_controller_fullscreen_vertical_btn_marginbottom"
+        android:layout_marginRight="@dimen/plugin_fullscreen_bottom_layout_paddingright"
+        android:src="@drawable/play_controller_fullscreen_vertical_btn"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/mBubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/plugin_full_screen_bubble_margin_bottom"
+        android:layout_marginRight="@dimen/plugin_full_screen_bubble_margin_right"
+        android:contentDescription="@null"
+        android:src="@drawable/horizontal_fullscreen_notice"
+        android:visibility="gone" />
+
+    <com.youku.player.plugin.fullscreen.view.PluginBufferingView
+        android:id="@+id/pluginBufferingView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <com.youku.player.plugin.fullscreen.view.FullScreenSettingView
+        android:id="@+id/fullScreenSettingView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <!--<com.youku.phone.detail.player.view.FullScreenSettingContinueView
+        android:id="@+id/fullScreenSettingContinueView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />-->
+
+    <!--<com.youku.phone.detail.player.view.FullScreenSettingLanguageView
+        android:id="@+id/fullScreenSettingLanguageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />-->
+
+    <!--<com.youku.phone.detail.player.view.FullScreenSettingSubtitleView
+        android:id="@+id/fullScreenSettingSubtitleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />-->
+
+   <!-- <com.youku.phone.detail.player.view.FullScreenSettingDecodeView
+        android:id="@+id/fullScreenSettingDecodeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />-->
+
+    <!--<com.youku.player.plugin.fullscreen.view.FullScreenSettingBarrageView
+        android:id="@+id/fullScreenSettingBarrageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />-->
+
+    <!--<com.youku.phone.detail.player.view.PluginFullScreenRightInteractView
+        android:id="@+id/pluginFullScreenRightInteractView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone" />-->
+
+    <com.youku.player.plugin.fullscreen.view.PluginFullScreenRightSeriesView
+        android:id="@+id/pluginFullScreenRightSeriesView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:visibility="gone" />
+
+    <com.youku.player.plugin.fullscreen.view.PluginFullScreenLoadingView
+        android:id="@+id/pluginFullScreenLoadingView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/pluginFullScreenDlnaControllerLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/dlna_place_holder_icon"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/pluginFullScreenPlayCompleteLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/pluginFullScreenPayPageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</RelativeLayout>

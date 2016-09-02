@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/seriesBorderViewLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/series_grid_item_bg"
+    android:paddingBottom="1px"
+    android:paddingRight="1px" >
+
+    <com.youku.player.plugin.fullscreen.view.SeriesBorderView
+        xmlns:youku="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/seriesBorderView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="vertical"
+        youku:ratioHeight="75"
+        youku:ratioWidth="85" >
+
+        <TextView
+            android:id="@+id/series_item_txt"
+            style="@style/series_grid_item_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.youku.player.plugin.fullscreen.view.SeriesBorderView>
+
+    <ImageView
+        android:id="@+id/series_item_img"
+        android:layout_width="@dimen/series_item_img_width"
+        android:layout_height="@dimen/series_item_img_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/series_item_lock_img"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/series_item_new_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/series_item_new_img"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/series_item_trailer_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/series_item_trailer_img"
+        android:visibility="gone" />
+
+</RelativeLayout>

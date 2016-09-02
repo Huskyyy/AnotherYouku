@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/image_width_xxxs"
+    android:layout_height="@dimen/image_height_xxxs"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="@dimen/image_margin_xs"
+    android:src="@drawable/ic_pager_indicator_18dp" />

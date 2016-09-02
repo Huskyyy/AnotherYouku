@@ -1,0 +1,441 @@
+<resources>
+    <string name="app_name">AnotherYouku</string>
+    <string name="title_activity_watch_video">WatchVideoActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="user_gender">
+        <item>f</item>
+        <item>m</item>
+        <item>u</item>
+    </string-array>
+
+    <string-array name="user_gender_text">
+        <item>女</item>
+        <item>男</item>
+        <item>未知</item>
+    </string-array>
+
+    <string-array name="video_state">
+        <item>normal</item>
+        <item>encoding</item>
+        <item>fail</item>
+        <item>in_review</item>
+        <item>blocked</item>
+    </string-array>
+
+    <string-array name="video_state_text">
+        <item>正常</item>
+        <item>转码中</item>
+        <item>转码失败</item>
+        <item>审核中</item>
+        <item>已屏蔽</item>
+    </string-array>
+
+    <string-array name="video_public_type">
+        <item>all</item>
+        <item>friend</item>
+        <item>password</item>
+    </string-array>
+
+    <string-array name="video_public_type_text">
+        <item>公开</item>
+        <item>仅好友观看</item>
+        <item>输入密码观看</item>
+    </string-array>
+
+    <string-array name="video_copyright_type">
+        <item>original</item>
+        <item>reproduced</item>
+    </string-array>
+
+    <string-array name="video_copyright_type_text">
+        <item>原创</item>
+        <item>转载</item>
+    </string-array>
+
+    <string-array name="show_state">
+        <item>normal</item>
+        <item>limited</item>
+        <item>check</item>
+        <item>checking</item>
+        <item>blocked</item>
+        <item>deleted</item>
+        <item>delayed</item>
+        <item>paycheck</item>
+    </string-array>
+
+    <string-array name="show_state_text">
+        <item>正常</item>
+        <item>分级</item>
+        <item>待审</item>
+        <item>审核中</item>
+        <item>已屏蔽</item>
+        <item>已删除</item>
+        <item>延审</item>
+        <item>付费审核</item>
+    </string-array>
+
+    <string-array name="show_copyright_status">
+        <item>authorized</item>
+        <item>public</item>
+        <item>falseauth</item>
+        <item>unknow</item>
+        <item>expired</item>
+        <item>unauthorized</item>
+    </string-array>
+
+    <string-array name="show_copyright_status_text">
+        <item>已授权</item>
+        <item>公共版权</item>
+        <item>伪授权</item>
+        <item>版权未知</item>
+        <item>版权过期</item>
+        <item>无版权</item>
+    </string-array>
+
+    <string-array name="home_category">
+        <item>热门</item>
+        <item>资讯</item>
+        <item>科技</item>
+        <item>体育</item>
+        <item>音乐</item>
+        <item>电影</item>
+        <item>电视剧</item>
+        <item>动漫</item>
+        <item>游戏</item>
+        <item>时尚</item>
+        <item>生活</item>
+        <item>综艺</item>
+    </string-array>
+    
+    <string-array name="video_category">
+        <item>资讯</item>
+        <item>科技</item>
+        <item>体育</item>
+        <item>游戏</item>
+        <item>时尚</item>
+        <item>生活</item>
+    </string-array>
+
+    <array name="video_category_genre">
+        <item>@array/news</item>
+        <item>@array/science</item>
+        <item>@array/sports</item>
+        <item>@array/game</item>
+        <item>@array/fashion</item>
+        <item>@array/life</item>
+    </array>
+
+    <array name="video_category_genre_tag">
+        <item>@array/news_tags</item>
+        <item>@array/science_tags</item>
+        <item>@array/sports_tags</item>
+        <item>@array/game_tags</item>
+        <item>@array/fashion_tags</item>
+        <item>@array/life_tags</item>
+    </array>
+    
+    <string-array name="news">
+        <item>社会资讯</item>
+        <item>科技资讯</item>
+        <item>生活资讯</item>
+        <item>时政资讯</item>
+        <item>军事资讯</item>
+        <item>财经资讯</item>
+        <item>法制</item>
+    </string-array>
+
+    <array name="news_tags">
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+    </array>
+
+    <string-array name="science">
+        <item>数码</item>
+        <item>IT</item>
+        <item>手机</item>
+        <item>笔记本</item>
+        <item>DC/DV</item>
+        <item>MP3/MP4</item>
+        <item>数字家电</item>
+        <item>GPS</item>
+        <item>游戏机</item>
+    </string-array>
+
+    <array name="science_tags">
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+    </array>
+
+    <string-array name="sports">
+        <item>体育资讯</item>
+        <item>篮球</item>
+        <item>CBA</item>
+        <item>足球</item>
+        <item>英超</item>
+        <item>极限运动</item>
+        <item>跑酷</item>
+        <item>自行车</item>
+        <item>轮滑</item>
+        <item>滑板</item>
+        <item>武术</item>
+        <item>格斗</item>
+        <item>赛车</item>
+        <item>大球运动</item>
+        <item>小球运动</item>
+        <item>网球</item>
+        <item>田径</item>
+        <item>水上项目</item>
+        <item>力量项目</item>
+        <item>冰雪项目</item>
+        <item>射击</item>
+        <item>健身</item>
+        <item>竞技舞蹈</item>
+        <item>技巧</item>
+        <item>棋牌</item>
+        <item>模型</item>
+        <item>其他</item>
+        <item>奥运会</item>
+        <item>欧洲杯</item>
+    </string-array>
+
+    <array name="sports_tags">
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+    </array>
+
+    <string-array name="game">
+        <item>游戏资讯</item>
+        <item>网络游戏</item>
+        <item>游戏音乐</item>
+        <item>电子竞技</item>
+        <item>单机游戏</item>
+        <item>魔兽世界</item>
+        <item>地下城与勇士</item>
+        <item>手机游戏</item>
+    </string-array>
+    
+    <array name="game_tags">
+        <item>@array/game_info</item>
+        <item>@array/online_game</item>
+        <item>@array/game_music</item>
+        <item>@array/e_sports</item>
+        <item>@array/pc_game</item>
+        <item>@array/wow</item>
+        <item>@array/mmoact</item>
+        <item>@array/mobile_game</item>
+    </array>
+
+    <string-array name="game_info">
+        <item>@string/all</item>
+    </string-array>
+
+    <string-array name="online_game">
+        <item>@string/all</item>
+        <item>英雄联盟</item>
+        <item>穿越火线</item>
+        <item>地下城与勇士</item>
+        <item>魔兽世界</item>
+        <item>梦幻西游</item>
+        <item>qq飞车</item>
+        <item>传奇</item>
+        <item>逆战</item>
+        <item>炉石传说</item>
+        <item>剑灵</item>
+    </string-array>
+
+    <string-array name="game_music">
+        <item>@string/all</item>
+    </string-array>
+
+    <string-array name="e_sports">
+        <item>@string/all</item>
+    </string-array>
+
+    <string-array name="pc_game">
+        <item>@string/all</item>
+    </string-array>
+
+    <string-array name="wow">
+        <item>@string/all</item>
+    </string-array>
+
+    <string-array name="mmoact">
+        <item>@string/all</item>
+    </string-array>
+
+    <string-array name="mobile_game">
+        <item>@string/all</item>
+    </string-array>
+
+    <string-array name="fashion">
+        <item>美容</item>
+        <item>修身</item>
+        <item>服装服饰</item>
+        <item>时尚购物</item>
+        <item>潮人</item>
+        <item>情感星座</item>
+    </string-array>
+
+    <array name="fashion_tags">
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+    </array>
+
+    <string-array name="life">
+        <item>绝活</item>
+        <item>美食</item>
+        <item>聚会</item>
+        <item>宠物</item>
+        <item>居家</item>
+        <item>理财</item>
+        <item>健康</item>
+        <item>家居</item>
+        <item>女性</item>
+    </string-array>
+
+    <array name="life_tags">
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+        <item>@array/tag_sample</item>
+    </array>
+
+    <string-array name="tag_sample">
+        <item>@string/all</item>
+    </string-array>
+
+    <string name="all">全部</string>
+
+    <string name="fragment_home_title">首页</string>
+    <string name="fragment_category_title">分区</string>
+    <string name="fragment_following_title">关注</string>
+    <string name="fragment_search_title">发现</string>
+
+    <string name="category_header_explore_more">进去看看</string>
+    <string name="card_show_more">更多</string>
+    <string name="card_refresh">换一波</string>
+    <string name="card_refreshing">更新中...</string>
+    <string name="hot_header_name">热门</string>
+    <string name="hot_header_rank">排行榜</string>
+
+    <string name="network_unavailable">无法连接到网络</string>
+    <string name="no_video_data">没有相关视频信息</string>
+    <string name="no_comment_data">暂无评论</string>
+    <string name="load_failed">加载失败...</string>
+    <string name="reload">重试</string>
+    <string name="refresh">刷新</string>
+    <string name="video_data_unavailable">获取视频信息失败</string>
+    <string name="user_data_unavailable">获取用户信息失败</string>
+    <string name="subscribe_data_unavailable">获取关注信息失败</string>
+    <string name="comment_data_unavailable">获取评论信息失败</string>
+
+    <string name="fragment_summary_title">简介</string>
+    <string name="fragment_comment_title">评论</string>
+    <string name="fragment_related_title">相关</string>
+    <string name="fragment_episode_title">剧集</string>
+
+    <string name="message_no_description">暂时没有简介信息==||</string>
+
+    <string name="collect">收藏</string>
+    <string name="share">分享</string>
+    <string name="to_subscribe">+关注</string>
+    <string name="subscribed">已关注</string>
+    <string name="publish_prefix">发布于 </string>
+
+    <string name="more_hot_comment">   >>更多热门评论>>   </string>
+    <string name="no_more_hot_comment">   没有更多热门评论   </string>
+    <string name="more_comment">   >>更多评论>>   </string>
+    <string name="no_more_comment">   没有更多评论信息   </string>
+    <string name="loading_comment">评论加载中...</string>
+    <string name="loading_related_videos">相关视频加载中...</string>
+
+    <string name="comment_ing"> 发送评论中... </string>
+    <string name="input_captcha">请输入验证码</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="captcha_refresh_failed">刷新验证码失败</string>
+
+    <string name="login">登录</string>
+    <string name="logout">注销</string>
+    <string name="authorization_processing">正在获取授权...</string>
+    <string name="authorization_failed">无法获取授权</string>
+
+    <string-array name="emoticon_strings">
+        <item>[赞]</item>
+        <item>[稀饭]</item>
+        <item>[愤怒]</item>
+        <item>[吐]</item>
+        <item>[无语]</item>
+        <item>[难过]</item>
+        <item>[汗]</item>
+        <item>[搞笑]</item>
+        <item>[牛]</item>
+        <item>[强]</item>
+    </string-array>
+
+    <string name="loading">加载中...</string>
+    <string name="retry">重试</string>
+    
+    <string name="category_news">全区动态</string>
+    <string name="published">发布时间</string>
+    <string name="view_count">播放数</string>
+    <string name="comment_count">评论数</string>
+    <string name="favorite_count">收藏数</string>
+    <string name="orderby_prefix">按</string>
+
+
+
+</resources>

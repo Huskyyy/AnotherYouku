@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.volley.toolbox.NetworkImageView
+        android:id="@+id/imgThumb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"/>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/layoutConfigTips"
+        android:orientation="vertical"
+        android:background="#40000000"
+        android:clickable="true"
+        android:padding="12dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtVwConfigTips"
+            android:singleLine="true"
+            android:layout_gravity="center"
+            android:text="@string/player_tips_disable_auto_play"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center"
+            android:background="@drawable/icon_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

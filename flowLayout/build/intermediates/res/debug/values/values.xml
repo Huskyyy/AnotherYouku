@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlowLayout"><attr name="android:orientation"/><attr format="enum" name="layoutDirection"><enum name="ltr" value="0"/><enum name="rtl" value="1"/></attr><attr format="boolean" name="debugDraw"/><attr format="float" name="weightDefault"/><attr name="android:gravity"/></declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams"><attr format="boolean" name="layout_newLine"/><attr format="float" name="layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
+    <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
+    <!-- From: file:/D:/github/android-flowlayout-master/libraries/layouts/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
+    <item name="item_touch_helper_previous_elevation" type="id"/>
+</resources>

@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/gray_xx_light</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar.BlueAccent">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="PrimaryTextStyle.xLarge.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="PrimaryTextStyle.xLarge">
+        <item name="android:textSize">@dimen/text_size_xl</item>
+    </style>
+
+    <style name="PrimaryTextStyle.Large.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="PrimaryTextStyle.Large.Blue">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="PrimaryTextStyle.Large">
+        <item name="android:textSize">@dimen/text_size_l</item>
+    </style>
+
+    <style name="PrimaryTextStyle.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="PrimaryTextStyle">
+        <item name="android:textSize">@dimen/text_size_m</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="PrimaryTextStyle.Small">
+        <item name="android:textSize">@dimen/text_size_xs</item>
+    </style>
+
+    <style name="SecondaryTextStyle.Large.Dark">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="SecondaryTextStyle.Large">
+        <item name="android:textSize">@dimen/text_size_l</item>
+    </style>
+
+    <style name="SecondaryTextStyle.Light">
+        <item name="android:textColor">@color/gray_x_light</item>
+    </style>
+
+    <style name="SecondaryTextStyle">
+        <item name="android:textSize">@dimen/text_size_m</item>
+        <item name="android:textColor">@color/gray_light</item>
+    </style>
+
+    <style name="SecondaryTextStyle.Small">
+        <item name="android:textSize">@dimen/text_size_s</item>
+    </style>
+
+    <style name="SecondaryTextStyle.XSmall">
+        <item name="android:textSize">@dimen/text_size_xs</item>
+    </style>
+
+    <style name="SecondaryTextStyle.XXSmall">
+        <item name="android:textSize">@dimen/text_size_xxs</item>
+    </style>
+
+
+    <style name="CaptchaDialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

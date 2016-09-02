@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/view_footer_height"
+    android:layout_marginBottom="@dimen/card_margin_m"
+    android:layout_marginLeft="@dimen/card_margin_m"
+    android:layout_marginRight="@dimen/card_margin_m"
+    android:layout_marginTop="@dimen/card_margin_s">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_show_more"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/card_height_s"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        app:cardCornerRadius="@dimen/card_corner_radius_s"
+        app:cardElevation="@dimen/card_elevation_s">
+
+        <TextView
+            android:id="@+id/tv_show_more"
+            style="@style/PrimaryTextStyle.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/text_margin_xxl"
+            android:layout_marginRight="@dimen/text_margin_xxl"
+            android:gravity="center"
+            android:text="@string/card_show_more" />
+
+    </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:id="@+id/iv_refresh"
+        android:layout_width="@dimen/image_width_xs"
+        android:layout_height="@dimen/view_footer_height"
+        android:paddingTop="@dimen/image_padding_m"
+        android:paddingBottom="@dimen/image_padding_m"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_refresh_18dp" />
+
+    <TextView
+        android:id="@+id/tv_refresh"
+        style="@style/PrimaryTextStyle.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:paddingRight="@dimen/text_padding_xl"
+        android:layout_toLeftOf="@id/iv_refresh"
+        android:gravity="center"
+        android:text="@string/card_refresh" />
+
+
+</RelativeLayout>

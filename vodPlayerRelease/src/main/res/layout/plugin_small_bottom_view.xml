@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/plugin_small_bottom_view_bg_height"
+    android:background="@drawable/plugin_small_bottom_view_bg">
+
+    <RelativeLayout
+        android:id="@+id/plugin_small_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/plugin_small_bottom_layout_height"
+        android:layout_alignParentBottom="true"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/plugin_small_play_control_btn"
+            android:layout_width="@dimen/plugin_small_play_control_btn_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/plugin_small_play_control_play"/>
+
+        <ImageView
+            android:id="@+id/plugin_small_fullscreen_btn"
+            android:layout_width="@dimen/plugin_small_play_control_btn_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/plugin_small_fullscreen_btn"/>
+
+        <LinearLayout
+            android:id="@+id/plugin_small_right_line_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_toLeftOf="@id/plugin_small_fullscreen_btn"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="@dimen/plugin_small_right_line_layout_height"
+                android:background="#80a4a4a4"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/plugin_small_share_btn"
+            android:layout_width="@dimen/plugin_small_play_control_btn_width"
+            android:layout_height="match_parent"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_toLeftOf="@id/plugin_small_right_line_layout"
+            android:src="@drawable/plugin_small_share_btn"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:id="@+id/plugin_small_seekbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/plugin_small_fullscreen_btn"
+            android:layout_toRightOf="@id/plugin_small_play_control_btn">
+
+            <View
+                android:id="@+id/plugin_small_time_line"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:id="@+id/plugin_small_time_left"
+                style="@style/plugin_small_time_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/plugin_small_time_line"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/plugin_small_time_marginleftright"
+                android:layout_marginTop="@dimen/plugin_small_time_left_margintop"
+                android:text="00:00"/>
+
+            <TextView
+                android:id="@+id/plugin_small_time_right"
+                style="@style/plugin_small_time_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/plugin_small_time_line"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/plugin_small_time_marginleftright"
+                android:layout_marginTop="@dimen/plugin_small_time_left_margintop"
+                android:text="00:00"/>
+
+            <SeekBar
+                android:id="@+id/plugin_small_seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:progressDrawable="@drawable/player_small_plugin_progressbar"
+                android:thumb="@drawable/plugin_small_seekbar_thumb"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
